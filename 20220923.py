@@ -45,3 +45,54 @@ num4 = str(age) + zipcode
 
 print(num1,num2,num3)
 print(num4)
+
+name1 = "Alex's iphone"
+
+# 二、輸出(print)
+"""
+print(項目1,[項目2,....(,sep=分隔字元, end =結束字元)])
+分隔字元預設' '(空白)，結束字元預設\n(換行)
+"""
+
+print(100 ,"智慧商務系", True )
+print(str(100) + "智慧商務系" + str(True) )
+print(100 ,"智慧商務系", True , sep="#" , end="\n")
+
+"""
+2-1 print() 命令參數格式化 (%)
+print(項目 % (參數列))
+%s (字串)
+%d (整數)
+%f (浮點數)
+"""
+
+print("%s的成績是%d分" % ("班代",80))
+print("%5s的成績是%3d分" % ("班代",80))
+print("%-5s的成績是%3d分" % ("班代",80))
+
+print("我的體重有%f分" % (80))
+print("我的體重有%-6.2f分" % (80.566))
+
+"""
+2-2 format
+print(字串.format(參數列))
+{}:參數位置
+{i}: 索引值
+{i:格式化指定}
+對齊方式:>靠右 <靠左 ^置中
+"""
+print("班代的成績為80")
+print("{}的成績為{}".format("班代",80))
+print("{1}的成績為{0}".format("班代",80))
+print("{0:^5s}的成績為{1}".format("班代",80))
+
+"""
+2-3 (f)
+print(f字串)
+"""
+
+name3 = "班代"
+score = 80
+print(f"{name3}的成績為{score}")
+print(f"{name3:>5}的成績為{score}")
+print(f"{name3:x>5}的成績為{score:03}") #不足會補值
