@@ -24,6 +24,9 @@ print(age,name)
 資料型態的轉換int(),float(),str()
 """
 
+test = 2.2
+print(type(test))
+
 age = 2
 justdoit = False
 name = "Alex"
@@ -85,6 +88,7 @@ print("班代的成績為80")
 print("{}的成績為{}".format("班代",80))
 print("{1}的成績為{0}".format("班代",80))
 print("{0:^5s}的成績為{1}".format("班代",80))
+
 
 """
 2-3 (f)
