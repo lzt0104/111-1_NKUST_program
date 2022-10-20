@@ -97,8 +97,14 @@ elif x < 0 and y>0:
     print("第II象限")
 elif x < 0 and y <0:
     print("第III象限")
-else:
+elif x > 0 and y < 0:
     print("第IV象限")
+elif x ==0 and y ==0:
+    print("在原點")
+elif x == 0 and y != 0:
+    print("Y軸上")
+else:
+    print("X軸上")
 
 #練習3(熱量計算)
 a = int(input("請輸入每日活動量(1:輕度,2:中度,3:重度)："))
