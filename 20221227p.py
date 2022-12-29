@@ -88,6 +88,13 @@ print('最大3個數字:',aa[0],',',aa[1],',',aa[2])
 
 
 
+n = int(input("輸入n值"))
+while n>0:
+    a = input("請輸入姓名:")
+    b = input("請輸入電子郵件:") 
+    n = n-1
+
+
 
 
 
