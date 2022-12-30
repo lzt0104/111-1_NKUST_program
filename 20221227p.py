@@ -96,6 +96,23 @@ while n>0:
 
 
 
+import random
+list1 = []
+for i in range(6):
+    list1.append(random.randint(1,46))
+print(list1)
+
+
+da = {}
+ans = []
+for i in range(7):
+    c=(i*4)%7
+    dd={c:i}
+    da.update(dd)
+
+while True:
+    
+
 
 
 

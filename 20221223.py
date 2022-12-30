@@ -189,6 +189,7 @@ with open('file1.txt','r') as f:
 import random
 random.randint(1,49) #產生整數
 
+
 #2.
 from random import *
 randint(1,49)
@@ -200,3 +201,4 @@ r.randint(1,49)
 import guess as g
 cop = g.figure_guess()
 print(cop)
+
