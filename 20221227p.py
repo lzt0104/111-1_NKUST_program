@@ -88,11 +88,6 @@ print('最大3個數字:',aa[0],',',aa[1],',',aa[2])
 
 
 
-n = int(input("輸入n值"))
-while n>0:
-    a = input("請輸入姓名:")
-    b = input("請輸入電子郵件:") 
-    n = n-1
 
 
 
@@ -111,7 +106,15 @@ for i in range(7):
     da.update(dd)
 
 while True:
-    
+    aa=list(input('傳送密碼(6位數):'))
+    if (len(aa)<6 or len(aa)>6):
+        print('再輸入一次')
+    elif len(aa)==6:
+        for ii in range(6):
+            ans.insert(ii,str(da.get(int(aa[ii]))))
+        print(''.join(ans))
+        break
+
 
 
 
