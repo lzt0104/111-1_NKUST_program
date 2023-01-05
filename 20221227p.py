@@ -7,9 +7,9 @@
 
 da={}
 ans = []
-for i in range(7):
+for i in range(10):
     c=(i*4)%7
-    dd={c:i}
+    dd={i:c}
     da.update(dd)
 while True:
     aa=list(input('傳送密碼(6位數):'))
